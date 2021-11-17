@@ -1,12 +1,15 @@
 <template>
   <div id="app">
+    <selectors />
   </div>
 </template>
 
 <script>
 
+import Selectors from "@/components/selectors";
 export default {
   name: 'App',
+  components: {Selectors},
 }
 </script>
 
